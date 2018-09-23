@@ -1,0 +1,1 @@
+<?php include ('views/admin/templates/head.php');?>

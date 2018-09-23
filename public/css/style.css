@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: black;
+	width: 100%;
+	min-height: 100px;
+	height: auto;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 80px;
+	padding: 40px;
+}
+
+nav{
+	background-color: black;
+	font-size: 20px;
+	text-align: left;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	padding: 12px 12px 0;
+
+}
+
+a:hover{
+	color: orange;
+}
+
+figure{
+	display: inline-block;
+	width: 30%;
+}
+
+section{
+	width: 100%;
+	background-color: orange;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article{
+	flex-wrap: wrap;
+	background-color: white;
+	display: inline-block;
+	height: auto;
+	border: 5px solid black;
+	text-align: center;
+	
+}
+
+.articulo1{
+	width: 34%;
+}
+.articulo2{
+	width: 33%;
+}
+
+.caja1{
+	display: inline-block;
+	width: 100%;
+	border: 5px solid white;
+	height: 600px;
+}
+
+.caja2{
+	display: block;
+	width: 100%;
+	border: 5px solid white;
+	height: 200px;
+}
+
+
+.caja3{
+	display: inline-block;
+	width: 100%;
+	border: 5px solid white;
+	height: 300px;
+}
+
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	width: 100%;
+	padding: 1%;
+	border: 5px solid black;
+	text-align: center;
+	margin-top: 5px;
+
+}
+
+.foot{
+	width: 33%;
+	background-color: purple;
+	display: inline-block;
+	height: 250px;
+	border: 5px solid black;
+	text-align: center;
+
+}
+
+/*registro*/
+.mapa{
+	padding: 30px;
+	width: 50%;
+	height: 10%;
+}
+.Registro{
+	width: 50%;
+	padding: 70px;
+	background-color: #FF3F33;
+}
+.box1{
+	display: inline-block;
+	width: 80%;
+	height: 400px;
+}
+
+.box2{
+	display: block;
+	width: 100%;
+	height: 300px;	
+}
+
+h2{
+	font-size: 40px; 
+	color:white; 
+	background: #FF5733;
+	border-radius: 2em;
+	width: 100%;
+	text-align: center;
+}
+
+input{
+	margin:0 auto;
+	width: 60%;
+	margin-top: 5%;
+	padding: 10px;
+	display: block;
+	border-radius: 5em;
+}
+
+.boton{
+	background-color: yellow;
+}
+
+
+@media screen and (max-width: 599px){
+
+
+
+.articulo1{
+	width: 100%;
+}
+
+.articulo2{
+	width: 100%;
+}
+
+.foot{
+	width: 100%;
+	background-color: purple;
+	height: 250px;
+	border: 5px solid black;
+}
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px){ 
+
+
+.articulo1{
+	width: 100%;
+}
+
+.articulo2{
+	width: 100%;
+}
+
+.foot{
+	width: 100%;
+	background-color: purple;
+	height: 250px;
+	border: 5px solid black;
+}
+}
+
+@media screen and (max-width: 599px){
+
+	/*registro*/
+.mapa{
+	
+	width: 100%;
+	
+}
+.Registro{
+	width: 100%;
+	
+}
+}
+
+
+
